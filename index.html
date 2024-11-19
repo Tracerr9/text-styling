@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Styles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-family: roboto, arial;
+    }
+    .heading {
+      font-weight: 600;
+      font-size: 25px;
+      
+    }
+    span {
+      text-decoration: underline;
+    }
+    p {
+      width: 500px;
+      line-height: 25px;
+      font-weight: 300;
+    }
+    .footer {
+      background-color: antiquewhite;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    a {
+      color :black;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color : red;
+    }
+    ul {
+      list-style: circle;
+    }
+  </style>
+</head>
+<body>
+  <p class="heading">
+    HTML 5 Entities
+  </p>
+  <p>
+    Beberapa karakter merupakan <span>reserved character</span> di html seperti:
+  </p>
+  <ul>
+    <li>
+      &#60;
+    </li>
+    <li>
+      &#62;
+    </li>
+  </ul>
+  <p>
+    Selain untuk menampilkan <span>reserved character</span> html entities juga berfungsi untuk menampilkan karakter-karakter yang tidak ada di keyboard seperti :
+  </p>
+  <ul>
+    <li>
+      &#169;
+    </li>
+    <li>
+      &#174;
+    </li>
+    <li>
+      &#167;
+    </li>
+    <li>
+      &#8451;
+    </li>
+    <li>
+      &#8457;
+    </li>
+  </ul>
+  <p class="footer">
+    untuk daftar html entities yang lebih lengkap bisa klik link <span><a href="https://www.w3schools.com/charsets/ref_utf_basic_latin.asp">ini</a></span>
+  </p>
+</body>
+</html>
